@@ -1,0 +1,180 @@
+{
+  "status": "answered",
+  "language": "hi",
+  "intent": "sell",
+  "reply": "20 क्विंटल गेहूं बेचने की सबसे अच्छी जगह: Delhi (Azadpur), भाड़े के बाद लगभग ₹2,612 प्रति क्विंटल। यह Meerut से ₹1,440 ज़्यादा है। 2026-27 का MSP ₹2,585 प्रति क्विंटल है।",
+  "agent": "sell",
+  "data": {
+    "crop": "wheat",
+    "district": "Meerut",
+    "state": "Uttar Pradesh",
+    "quantity_qtl": 20.0,
+    "options": [
+      {
+        "mandi": "Delhi (Azadpur)",
+        "modal_price": 2640.0,
+        "distance_km": 70.0,
+        "transport_cost": 28.0,
+        "net_price": 2612.0,
+        "distance_assumed": true,
+        "arrival_date": "2026-10-22"
+      },
+      {
+        "mandi": "Muzaffarnagar",
+        "modal_price": 2575.0,
+        "distance_km": 55.0,
+        "transport_cost": 22.0,
+        "net_price": 2553.0,
+        "distance_assumed": true,
+        "arrival_date": "2026-10-22"
+      },
+      {
+        "mandi": "Hapur",
+        "modal_price": 2565.0,
+        "distance_km": 35.0,
+        "transport_cost": 14.0,
+        "net_price": 2551.0,
+        "distance_assumed": true,
+        "arrival_date": "2026-10-22"
+      },
+      {
+        "mandi": "Meerut",
+        "modal_price": 2540.0,
+        "distance_km": 0.0,
+        "transport_cost": 0.0,
+        "net_price": 2540.0,
+        "distance_assumed": true,
+        "arrival_date": "2026-10-22"
+      },
+      {
+        "mandi": "Baghpat",
+        "modal_price": 2560.0,
+        "distance_km": 50.0,
+        "transport_cost": 20.0,
+        "net_price": 2540.0,
+        "distance_assumed": true,
+        "arrival_date": "2026-10-21"
+      },
+      {
+        "mandi": "Bulandshahr",
+        "modal_price": 2550.0,
+        "distance_km": 65.0,
+        "transport_cost": 26.0,
+        "net_price": 2524.0,
+        "distance_assumed": true,
+        "arrival_date": "2026-10-22"
+      }
+    ],
+    "best": {
+      "mandi": "Delhi (Azadpur)",
+      "modal_price": 2640.0,
+      "distance_km": 70.0,
+      "transport_cost": 28.0,
+      "net_price": 2612.0,
+      "distance_assumed": true,
+      "arrival_date": "2026-10-22"
+    },
+    "nearest": {
+      "mandi": "Meerut",
+      "modal_price": 2540.0,
+      "distance_km": 0.0,
+      "transport_cost": 0.0,
+      "net_price": 2540.0,
+      "distance_assumed": true,
+      "arrival_date": "2026-10-22"
+    },
+    "gain_rs": 1440.0,
+    "ledger_value_rs": 1440.0,
+    "formula": "(net Rs 2612 at Delhi (Azadpur) - net Rs 2540 at Meerut) x 20 qtl = Rs 1440; net = modal price - Rs 0.4 per qtl per km x distance (freight rate is an assumption)",
+    "msp": {
+      "price_rs_per_qtl": 2585.0,
+      "marketing_season": "2026-27",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173566&reg=48&lang=2",
+      "quality": "official",
+      "msp_rs_per_qtl": 2585.0,
+      "difference_rs": 55.0,
+      "difference_pct": 2.1,
+      "below_msp": false
+    },
+    "warnings": [
+      "1 market(s) on the page are not in this district's mandi list"
+    ],
+    "assumptions": [
+      "Freight rate per quintal per km is an assumption, not sourced",
+      "Road distances are approximate, not sourced"
+    ],
+    "rung": "fetch",
+    "price_source": "https://agmarknet.gov.in/",
+    "data_mode": "replay",
+    "ledger_entry_id": "led_3d532e16c197"
+  },
+  "evidence": [
+    {
+      "source_url": "https://agmarknet.gov.in/",
+      "kind": "replay",
+      "title": "Delhi (Azadpur) modal price",
+      "quote": "Delhi (Azadpur) | Wheat | 2640 | 2026-10-22",
+      "fetched_at": "2026-10-24T13:53:04.503182Z",
+      "run_id": null,
+      "assumed": false
+    },
+    {
+      "source_url": "https://agmarknet.gov.in/",
+      "kind": "replay",
+      "title": "Muzaffarnagar modal price",
+      "quote": "Muzaffarnagar | Wheat | 2575 | 2026-10-22",
+      "fetched_at": "2026-10-24T13:53:04.503182Z",
+      "run_id": null,
+      "assumed": false
+    },
+    {
+      "source_url": "https://agmarknet.gov.in/",
+      "kind": "replay",
+      "title": "Hapur modal price",
+      "quote": "Hapur | Wheat | 2565 | 2026-10-22",
+      "fetched_at": "2026-10-24T13:53:04.503182Z",
+      "run_id": null,
+      "assumed": false
+    },
+    {
+      "source_url": "https://agmarknet.gov.in/",
+      "kind": "replay",
+      "title": "Meerut modal price",
+      "quote": "Meerut | Wheat | 2540 | 2026-10-22",
+      "fetched_at": "2026-10-24T13:53:04.503182Z",
+      "run_id": null,
+      "assumed": false
+    },
+    {
+      "source_url": "https://agmarknet.gov.in/",
+      "kind": "replay",
+      "title": "Baghpat modal price",
+      "quote": "Baghpat | Wheat | 2560 | 2026-10-21",
+      "fetched_at": "2026-10-24T13:53:04.503182Z",
+      "run_id": null,
+      "assumed": false
+    },
+    {
+      "source_url": "https://agmarknet.gov.in/",
+      "kind": "replay",
+      "title": "Bulandshahr modal price",
+      "quote": "Bulandshahr | Wheat | 2550 | 2026-10-22",
+      "fetched_at": "2026-10-24T13:53:04.503182Z",
+      "run_id": null,
+      "assumed": false
+    },
+    {
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173566&reg=48&lang=2",
+      "kind": "knowledge",
+      "title": "Cabinet approves Minimum Support Prices (MSP) for Rabi Crops for Marketing Season 2026-27 (PIB, 1 Oct 2025)",
+      "quote": "Up Rs 160 from Rs 2,425.",
+      "fetched_at": "2026-10-24T13:53:04.503182Z",
+      "run_id": null,
+      "assumed": false
+    }
+  ],
+  "confidence": 0.91,
+  "run_id": null,
+  "ticket_id": null,
+  "reasons": []
+}

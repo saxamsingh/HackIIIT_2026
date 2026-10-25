@@ -1,0 +1,29 @@
+{
+  "_label": "ILLUSTRATIVE FIXTURE, not a real recording. Replace by running with TINYFISH_MODE=live TINYFISH_RECORD=1.",
+  "kind": "search",
+  "default": true,
+  "request": { "query": "wheat minimum support price PIB release" },
+  "response": {
+    "query": "wheat minimum support price PIB release",
+    "results": [
+      {
+        "position": 1,
+        "site_name": "Press Information Bureau",
+        "title": "Illustrative result: Cabinet approves Minimum Support Price for Rabi crops",
+        "url": "https://pib.gov.in/",
+        "snippet": "Illustrative fixture text. The real MSP figure must come from a recorded PIB page.",
+        "date": null
+      },
+      {
+        "position": 2,
+        "site_name": "Department of Agriculture",
+        "title": "Illustrative result: Rabi marketing season procurement",
+        "url": "https://agriwelfare.gov.in/",
+        "snippet": "Illustrative fixture text.",
+        "date": null
+      }
+    ],
+    "total_results": 2,
+    "page": 0
+  }
+}

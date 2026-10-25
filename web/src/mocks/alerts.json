@@ -1,0 +1,65 @@
+[
+  {
+    "id": "alert_3c887754c202",
+    "farmer_id": "farmer_demo_3",
+    "type": "hail",
+    "title": "Hailstorm warning for Meerut",
+    "detail": "Thunderstorm with hail likely at isolated places in Meerut during the next 3 hours.",
+    "source_url": "https://mausam.imd.gov.in/",
+    "evidence": [
+      {
+        "source_url": "https://mausam.imd.gov.in/",
+        "kind": "replay",
+        "title": "Monitor run",
+        "quote": "Thunderstorm with hail likely at isolated places in Meerut during the next 3 hours.",
+        "fetched_at": "2026-10-24T13:53:04.717953Z",
+        "run_id": "monrun_replay_1",
+        "assumed": false
+      }
+    ],
+    "claim_id": "claim_9fb7de3dbfbe",
+    "created_at": "2026-10-24T13:53:04.717953Z"
+  },
+  {
+    "id": "alert_c6500a895421",
+    "farmer_id": "farmer_demo_2",
+    "type": "hail",
+    "title": "Hailstorm warning for Meerut",
+    "detail": "Thunderstorm with hail likely at isolated places in Meerut during the next 3 hours.",
+    "source_url": "https://mausam.imd.gov.in/",
+    "evidence": [
+      {
+        "source_url": "https://mausam.imd.gov.in/",
+        "kind": "replay",
+        "title": "Monitor run",
+        "quote": "Thunderstorm with hail likely at isolated places in Meerut during the next 3 hours.",
+        "fetched_at": "2026-10-24T13:53:04.707919Z",
+        "run_id": "monrun_replay_1",
+        "assumed": false
+      }
+    ],
+    "claim_id": "claim_b36d320cdf13",
+    "created_at": "2026-10-24T13:53:04.707919Z"
+  },
+  {
+    "id": "alert_03d58061a7ed",
+    "farmer_id": "farmer_demo_1",
+    "type": "hail",
+    "title": "Hailstorm warning for Meerut",
+    "detail": "Thunderstorm with hail likely at isolated places in Meerut during the next 3 hours.",
+    "source_url": "https://mausam.imd.gov.in/",
+    "evidence": [
+      {
+        "source_url": "https://mausam.imd.gov.in/",
+        "kind": "replay",
+        "title": "Monitor run",
+        "quote": "Thunderstorm with hail likely at isolated places in Meerut during the next 3 hours.",
+        "fetched_at": "2026-10-24T13:53:04.697115Z",
+        "run_id": "monrun_replay_1",
+        "assumed": false
+      }
+    ],
+    "claim_id": "claim_ffd56ff31c01",
+    "created_at": "2026-10-24T13:53:04.697115Z"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "_label": "ILLUSTRATIVE FIXTURE, not a real recording. Mandi names are real, prices and dates are made up. streaming_url points at a harmless placeholder page.",
+  "kind": "agent",
+  "default": true,
+  "request": {
+    "url": "https://agmarknet.gov.in/",
+    "goal": "Select the demo state, district and commodity wheat. Return the modal price per mandi as JSON."
+  },
+  "response": {
+    "run_id": "run_replay_mandi",
+    "status": "COMPLETED",
+    "streaming_url": "https://example.com/",
+    "num_of_steps": 5,
+    "result": {
+      "mandis": [
+        { "mandi": "Meerut", "modal_price": 2540, "arrival_date": "2026-10-22" },
+        { "mandi": "Hapur", "modal_price": 2565, "arrival_date": "2026-10-22" },
+        { "mandi": "Baghpat", "modal_price": 2560, "arrival_date": "2026-10-21" },
+        { "mandi": "Muzaffarnagar", "modal_price": 2575, "arrival_date": "2026-10-22" },
+        { "mandi": "Bulandshahr", "modal_price": 2550, "arrival_date": "2026-10-22" },
+        { "mandi": "Delhi (Azadpur)", "modal_price": 2640, "arrival_date": "2026-10-22" }
+      ]
+    },
+    "error": null,
+    "events": [
+      { "type": "STARTED", "run_id": "run_replay_mandi", "timestamp": "2026-01-01T00:00:00Z" },
+      { "type": "STREAMING_URL", "run_id": "run_replay_mandi", "streaming_url": "https://example.com/", "timestamp": "2026-01-01T00:00:01Z" },
+      { "type": "PROGRESS", "run_id": "run_replay_mandi", "purpose": "Opening the mandi price page", "timestamp": "2026-01-01T00:00:02Z" },
+      { "type": "PROGRESS", "run_id": "run_replay_mandi", "purpose": "Selecting state, district and commodity", "timestamp": "2026-01-01T00:00:04Z" },
+      { "type": "PROGRESS", "run_id": "run_replay_mandi", "purpose": "Reading the price table", "timestamp": "2026-01-01T00:00:06Z" },
+      {
+        "type": "COMPLETE", "run_id": "run_replay_mandi", "status": "COMPLETED", "timestamp": "2026-01-01T00:00:07Z",
+        "result_json": { "mandis": [ { "mandi": "Meerut", "modal_price": 2540, "arrival_date": "2026-10-22" } ] }
+      }
+    ]
+  }
+}

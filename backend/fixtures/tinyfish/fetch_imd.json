@@ -1,0 +1,18 @@
+{
+  "_label": "ILLUSTRATIVE FIXTURE, not a real recording or an IMD bulletin. {district} is replaced by DEMO_DISTRICT.",
+  "kind": "fetch",
+  "request": { "urls": ["https://mausam.imd.gov.in/"] },
+  "response": {
+    "results": [
+      {
+        "url": "https://mausam.imd.gov.in/",
+        "final_url": "https://mausam.imd.gov.in/",
+        "title": "Illustrative district warnings",
+        "format": "markdown",
+        "links": [],
+        "text": "# Illustrative district warnings (not real data)\n\nThunderstorm with hail likely at isolated places in {district}. Heavy rain is not expected.\n\nOther districts: no warning."
+      }
+    ],
+    "errors": []
+  }
+}

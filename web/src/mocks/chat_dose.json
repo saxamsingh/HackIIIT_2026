@@ -1,0 +1,15 @@
+{
+  "status": "escalated",
+  "language": "hinglish",
+  "intent": "advisory",
+  "reply": "Is sawal ka jawab main khud nahi de sakta. Maine aapka sawal krishi visheshagya ko bhej diya hai (ticket tkt_b721c466446b). Wo aapse sampark karenge. Tab tak koi dawai ya khad na daalein.",
+  "agent": null,
+  "data": {},
+  "evidence": [],
+  "confidence": 0.0,
+  "run_id": null,
+  "ticket_id": "tkt_b721c466446b",
+  "reasons": [
+    "dose_question"
+  ]
+}

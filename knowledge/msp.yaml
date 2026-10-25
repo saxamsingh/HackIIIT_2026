@@ -1,0 +1,40 @@
+# Minimum Support Prices, Rs per quintal. Every value cites its source; nothing here is typed from memory.
+# `on_sale_now: true` marks the marketing season whose grain farmers are selling today (the comparison
+# the Sell agent shows). A newer season can be announced before its grain exists: wheat for 2027-28 was
+# announced on 30 Sep 2026 but is sown now and harvested in 2027.
+crops:
+  wheat:
+    - marketing_season: "2026-27"
+      price_rs_per_qtl: 2585
+      on_sale_now: true
+      quality: official
+      source_url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173566&reg=48&lang=2"
+      source_title: "Cabinet approves Minimum Support Prices (MSP) for Rabi Crops for Marketing Season 2026-27 (PIB, 1 Oct 2025)"
+      note: "Up Rs 160 from Rs 2,425."
+      retrieved: "2026-10-24"
+    - marketing_season: "2027-28"
+      price_rs_per_qtl: 2610
+      on_sale_now: false
+      quality: secondary
+      source_url: "https://newsonair.gov.in/union-cabinet-hikes-minimum-support-prices-for-rabi-crops-for-2027-28-marketing-season/"
+      source_title: "Union Cabinet hikes MSPs for Rabi crops for 2027-28 (All India Radio, 1 Oct 2026)"
+      note: "AIR reports wheat up Rs 25; the absolute Rs 2,610 is from several outlets. The PIB release was not located."
+      retrieved: "2026-10-24"
+  mustard:
+    - marketing_season: "2026-27"
+      price_rs_per_qtl: 6200
+      on_sale_now: true
+      quality: official
+      source_url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173566&reg=48&lang=2"
+      source_title: "Rapeseed and mustard, same PIB release (PIB, 1 Oct 2025)"
+      retrieved: "2026-10-24"
+  chickpea:
+    - marketing_season: "2026-27"
+      price_rs_per_qtl: 5875
+      on_sale_now: true
+      quality: official
+      source_url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173566&reg=48&lang=2"
+      source_title: "Gram, same PIB release (PIB, 1 Oct 2025)"
+      retrieved: "2026-10-24"
+# No entry for rice, maize, sugarcane, potato, bajra, soybean or cotton: kharif and cash-crop MSPs were not
+# researched. The Sell agent then shows no MSP line and lowers confidence slightly; it never guesses one.

@@ -1,0 +1,28 @@
+{
+  "_label": "ILLUSTRATIVE FIXTURE, not a real recording. Answers any scheme-notice search (query_contains).",
+  "kind": "search",
+  "request": { "query_contains": "scheme" },
+  "response": {
+    "query": "new agriculture subsidy scheme notice for farmers",
+    "results": [
+      {
+        "position": 1,
+        "site_name": "Department of Agriculture",
+        "title": "Illustrative notice: seed drill subsidy window opens",
+        "url": "https://agriwelfare.gov.in/notice-illustrative-1",
+        "snippet": "Illustrative fixture text.",
+        "date": null
+      },
+      {
+        "position": 2,
+        "site_name": "Department of Agriculture",
+        "title": "Illustrative notice: drip irrigation assistance",
+        "url": "https://agriwelfare.gov.in/notice-illustrative-2",
+        "snippet": "Illustrative fixture text.",
+        "date": null
+      }
+    ],
+    "total_results": 2,
+    "page": 0
+  }
+}

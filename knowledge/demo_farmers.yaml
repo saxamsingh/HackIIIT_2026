@@ -1,0 +1,33 @@
+# SYNTHETIC farmers for the demo. Not real people. State and district come from DEMO_STATE / DEMO_DISTRICT
+# when seeded (backend/app/seed.py), so changing the demo area needs no edit here.
+farmers:
+  - id: farmer_demo_1
+    name: Ramesh Kumar
+    phone: "+910000000001"
+    crops: [wheat, mustard]
+    land_acres: 2.0
+    category: small
+    language: hi
+    documents: [aadhaar, bank_passbook, land_record, mobile_linked_aadhaar]
+    ledger_seed:
+      - id: led_demo_1
+        kind: sell
+        amount_rs: 1800
+        formula: "Synthetic demo entry: (net price at far mandi - net price at nearest mandi) x quintals"
+        confirmed: true
+  - id: farmer_demo_2
+    name: Sunita Devi
+    phone: "+910000000002"
+    crops: [rice, wheat]
+    land_acres: 1.2
+    category: marginal
+    language: hinglish
+    documents: [aadhaar, bank_passbook]
+  - id: farmer_demo_3
+    name: Harpreet Singh
+    phone: "+910000000003"
+    crops: [wheat, sugarcane]
+    land_acres: 6.5
+    category: other
+    language: en
+    documents: [aadhaar, bank_passbook, land_record, farmer_id, mobile_linked_aadhaar]

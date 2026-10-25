@@ -1,0 +1,23 @@
+id: soil-health-card
+name: Soil Health Card
+level: central
+benefit: "A soil test and a card with the soil's nutrient status and fertiliser recommendations."
+estimated_value_rs: null
+value_basis: "A service, not a payment."
+apply_url: "https://soilhealth.dac.gov.in/"
+url_verified: false
+deadline: null
+eligibility: {}
+requires_documents: []
+requires_facts: []
+notes: "Sources disagree on the cycle: every 2 years (scheme objective, a state page) or every 3 years (a 2025 PIB document). Ask your state agriculture department."
+sources:
+  - url: "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025816613501.pdf"
+    title: "PIB document: Soil Health Card cycle and sample costs (Aug 2025)"
+    retrieved: "2026-10-24"
+  - url: "https://wb.gov.in/government-schemes-details-soil-health-card.aspx"
+    title: "Soil Health Card (State government page)"
+    retrieved: "2026-10-24"
+reviewed: false
+reviewed_by: null
+reviewed_at: null

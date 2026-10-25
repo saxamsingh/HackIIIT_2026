@@ -1,0 +1,24 @@
+id: pm-kisan
+name: PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)
+level: central
+benefit: "Income support of Rs 6,000 a year, paid in three equal instalments of Rs 2,000 by direct bank transfer."
+estimated_value_rs: 6000
+value_basis: "Per year, as stated by the scheme. Indicative; the farmer must still be verified and complete e-KYC."
+apply_url: "https://pmkisan.gov.in/"
+url_verified: true
+deadline: null
+eligibility:
+  land_required: true
+requires_documents: [aadhaar, bank_passbook, land_record, mobile_linked_aadhaar]
+requires_facts: []
+notes: "Exclusions exist (for example institutional landholders). They are not in the farmer profile: check the official list."
+sources:
+  - url: "https://services.india.gov.in/service/detail/pm-kisan-samman-nidhi"
+    title: "PM Kisan Samman Nidhi (India.gov.in services)"
+    retrieved: "2026-10-24"
+  - url: "https://wb.gov.in/government-schemes-details-pradhan-mantri-kisan-samman-nidhi.aspx"
+    title: "PM-KISAN: eligibility and benefit (State government page)"
+    retrieved: "2026-10-24"
+reviewed: false
+reviewed_by: null
+reviewed_at: null

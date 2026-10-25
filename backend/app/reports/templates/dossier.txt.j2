@@ -1,0 +1,48 @@
+# Crop-damage claim dossier {{ claim_id }}
+DRAFT - NOT SUBMITTED
+Farmer verifies and submits. KhetKaaj never submits for you.
+
+## Claim details
+- Farmer: {{ farmer.name }}
+- State and district: {{ farmer.state }}, {{ farmer.district }}
+- Crop: {{ crop }}
+- Event: {{ event_label }}
+- Event date: {{ event_date }}
+- Land: {{ farmer.land_acres }} acres
+
+## Weather evidence
+{% if weather_quote -%}
+"{{ weather_quote }}"
+Source: {{ weather_url }} ({{ weather_kind }}). {{ corroboration }}
+{%- else -%}
+No weather record was found for this event. {{ corroboration }}
+{%- endif %}
+
+## Report the loss on time
+{% if intimation_deadline -%}
+Report the loss to your insurer, bank or agriculture department by {{ intimation_deadline }} (72 hours from the event).
+{%- else -%}
+Report the loss within 72 hours of the event.
+{%- endif %}
+Source: {{ intimation_source }}. Confirm the window and the reporting channel with your insurer.
+National crop-insurance helpline listed in a district government memo: 14447 (confirm with your insurer).
+
+## Photo evidence
+{% if photos -%}
+{% for p in photos -%}
+- {{ p.name }}: taken {{ p.taken or "time not recorded" }}; location {{ p.location or "not recorded" }}
+{% endfor %}
+{%- else -%}
+No photos were attached. Add dated photos of the damaged field.
+{% endif %}
+{% if warnings %}## Things to check
+{% for w in warnings -%}
+- {{ w }}
+{% endfor %}
+{% endif %}
+## What to do next
+- Check every detail above against your own records.
+- Report the loss and submit the claim yourself through your insurer or the official PMFBY channels.
+- Keep the original photos.
+
+Prepared {{ generated }}. Data mode: {{ mode }}.

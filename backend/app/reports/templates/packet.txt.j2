@@ -1,0 +1,35 @@
+# {{ scheme.name }}
+DRAFT application packet - NOT SUBMITTED
+Farmer verifies and submits. KhetKaaj never submits for you.
+
+## Applicant
+- Name: {{ farmer.name }}
+- State and district: {{ farmer.state }}, {{ farmer.district }}
+- Land: {{ farmer.land_acres }} acres ({{ farmer.category }} farmer)
+- Crops: {{ farmer.crops | join(", ") }}
+- Phone: {{ farmer.phone or "not provided" }}
+
+## What the scheme offers
+{{ scheme.benefit }}
+{% if scheme.estimated_value_rs %}Indicative value: Rs {{ "%g"|format(scheme.estimated_value_rs) }}. {{ scheme.value_basis }}{% endif %}
+
+## Where to apply
+{{ scheme.apply_url }}{% if not scheme.url_verified %} (portal home; the exact application page was not confirmed){% endif %}
+Deadline: {{ scheme.deadline or "no deadline is cited for this scheme; check the portal" }}
+
+## Documents to attach
+{% for doc in documents -%}
+- [{{ "x" if doc.have else " " }}] {{ doc.label }}{% if not doc.have %} - you have not listed this{% endif %}
+{% endfor %}
+## Why you appear eligible
+{% for r in reasons -%}
+- {{ r }}
+{% endfor %}
+{% if scheme.notes %}## Check before you apply
+{{ scheme.notes }}
+{% endif %}
+## Sources
+{% for s in scheme.sources -%}
+- {{ s.title or s.url }}: {{ s.url }} (read {{ s.retrieved }})
+{% endfor %}
+Prepared {{ generated }}. Data mode: {{ mode }}.

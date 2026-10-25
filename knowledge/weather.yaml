@@ -1,0 +1,15 @@
+# Where official weather warnings are read from.
+imd:
+  url: "https://mausam.imd.gov.in/"
+  verified: false
+  note: >-
+    The IMD home page. The exact district-wise warning / nowcast page was not confirmed (searches returned
+    news reports, not the page), so check it in a browser, then replace this URL and record a fixture with
+    TINYFISH_RECORD=1. Until then a live Fetch of the home page usually will not name a district, so the
+    ladder escalates to an Agent run, and Monitors watch this same page.
+# Where the 72-hour rule used by claims comes from.
+intimation:
+  hours: 72
+  source_url: "https://eparlib.nic.in/bitstream/123456789/977813/1/AU3866.pdf"
+  source_title: "Parliament answer on PMFBY: loss from localised hail, landslide, inundation must be reported within 72 hours"
+  quality: official-secondary

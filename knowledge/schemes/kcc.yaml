@@ -1,0 +1,24 @@
+id: kcc
+name: Kisan Credit Card (KCC)
+level: central
+benefit: "Short-term farm credit with an interest subvention: loans up to Rs 3 lakh get 2% subvention to the bank plus 3% for prompt repayment."
+estimated_value_rs: null
+value_basis: "A loan facility, not a payment. The Budget 2025-26 announced raising the limit to Rs 5 lakh; whether that is in force was not confirmed."
+apply_url: "https://www.myscheme.gov.in/"
+url_verified: false   # the portal home; apply at a bank branch
+deadline: null
+eligibility:
+  land_required: true
+requires_documents: [aadhaar, bank_passbook, land_record]
+requires_facts: []
+notes: "Owner cultivators, tenant farmers, oral lessees and sharecroppers can apply, so a farmer without a land record may still qualify through a lease. Confirm the current limit and rates with the bank."
+sources:
+  - url: "https://rsdebate.nic.in/bitstream/123456789/759195/1/PQ_267_18032025_U2012_p327_p327.pdf"
+    title: "Rajya Sabha answer (18 Mar 2025) on KCC interest subvention"
+    retrieved: "2026-10-24"
+  - url: "https://pygb.bank.in/kcc-crop/"
+    title: "KCC eligibility (Punjab Gramin Bank)"
+    retrieved: "2026-10-24"
+reviewed: false
+reviewed_by: null
+reviewed_at: null

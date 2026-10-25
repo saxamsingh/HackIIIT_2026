@@ -1,0 +1,24 @@
+id: pm-kmy
+name: PM Kisan Maandhan Yojana (farmer pension)
+level: central
+benefit: "A minimum assured pension of Rs 3,000 a month after age 60, for monthly contributions of Rs 55 to Rs 200 (matched by the Centre)."
+estimated_value_rs: null
+value_basis: "A pension from age 60, not a payment now."
+apply_url: "https://pmkisan.gov.in/"
+url_verified: true   # the operational guidelines are hosted on this site
+deadline: null
+eligibility:
+  max_land_acres: 4.94   # 2 hectares
+  land_required: true
+requires_documents: [aadhaar, bank_passbook, land_record]
+requires_facts: [age]    # 18 to 40 at entry; the farmer profile has no age, so eligibility is unknown
+fact_rules:
+  age: { min: 18, max: 40 }
+notes: "Farmers already covered by NPS or ESIC, or enrolled in PM-SYM or PM-LVM, are excluded; land records as on 1 Aug 2019."
+sources:
+  - url: "https://Pmkisan.Gov.In/Documents/PM-KMY - Operational Guidelines.pdf"
+    title: "PM-KMY Operational Guidelines"
+    retrieved: "2026-10-24"
+reviewed: false
+reviewed_by: null
+reviewed_at: null

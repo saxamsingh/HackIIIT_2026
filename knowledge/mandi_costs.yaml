@@ -1,0 +1,34 @@
+# Selling-side parameters for the Sell agent. `assumed: true` means NOT taken from a source.
+
+price_source:
+  url: "https://agmarknet.gov.in/daily-price-and-arrival-report"
+  note: >-
+    Official Agmarknet 2.0 Daily Price and Arrival Report page. Checked 25 Oct 2026: the public filters
+    API returned HTTP 500 (database error), and the report API requires CAPTCHA credentials. The page
+    can be used for a human-accessible source, but unattended live price retrieval is not verified and
+    must fail closed when Agmarknet blocks access. Do not bypass CAPTCHA. Re-test the official API before
+    treating this as a working live feed.
+  verified: false
+
+transport:
+  rs_per_qtl_per_km: 0.4
+  assumed: true
+  note: "No freight-rate source. A placeholder so net prices are comparable; replace with a cited rate."
+
+price_rules:
+  max_age_days: 3          # assumed: older rows are treated as stale
+  min_ratio_to_msp: 0.6    # assumed: a modal price below 60% of MSP is more likely a unit error than a price
+  max_ratio_to_msp: 2.0    # assumed: above 200% likewise
+  min_mandis: 3            # fewer mandis than this cannot support a "best" claim
+
+districts:
+  Meerut:
+    state: Uttar Pradesh
+    # Road distances from Meerut are APPROXIMATE and not sourced. Replace with a mapped distance each.
+    mandis:
+      - { name: Meerut, distance_km: 0, assumed: true, aliases: ["Meerut", "Naveen Mandi Sthal Meerut"] }
+      - { name: Hapur, distance_km: 35, assumed: true, aliases: ["Hapur"] }
+      - { name: Baghpat, distance_km: 50, assumed: true, aliases: ["Baghpat", "Bagpat"] }
+      - { name: Muzaffarnagar, distance_km: 55, assumed: true, aliases: ["Muzaffarnagar"] }
+      - { name: Bulandshahr, distance_km: 65, assumed: true, aliases: ["Bulandshahr"] }
+      - { name: "Delhi (Azadpur)", distance_km: 70, assumed: true, aliases: ["Azadpur", "Delhi", "Delhi Azadpur"] }

@@ -1,0 +1,13 @@
+{
+  "status": "menu",
+  "language": "en",
+  "intent": "unknown",
+  "reply": "I can help you sell your crop, find schemes, or prepare a crop-damage claim. Try: 'Where should I sell wheat? 20 quintal'.",
+  "agent": null,
+  "data": {},
+  "evidence": [],
+  "confidence": 0.0,
+  "run_id": null,
+  "ticket_id": null,
+  "reasons": []
+}

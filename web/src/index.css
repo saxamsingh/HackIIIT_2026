@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-50 text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100;
+    font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans Devanagari", "Noto Sans", sans-serif;
+  }
+}

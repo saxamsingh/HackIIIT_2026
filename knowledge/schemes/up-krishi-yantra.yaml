@@ -1,0 +1,25 @@
+id: up-krishi-yantra
+name: UP Krishi Yantra Anudan (farm machinery subsidy, Uttar Pradesh)
+level: state
+benefit: "A subsidy on farm machinery such as rotavators, seed drills, sprinklers and threshers, applied for online with a token (lottery) system."
+estimated_value_rs: null
+value_basis: "Sources conflict on the rate (one says 40-50%, up to 80% for some groups; an older one says 25% on tractors capped at Rs 45,000), so no amount is given."
+apply_url: "https://upagriculture.com/"
+url_verified: false
+deadline: null
+eligibility:
+  states: ["Uttar Pradesh"]
+  land_required: true
+requires_documents: [aadhaar, bank_passbook, land_record]
+requires_facts: []
+notes: "Open to Uttar Pradesh farmers; small and marginal farmers are favoured. Check current rates and the application window on the portal."
+sources:
+  - url: "https://schemesinindia.in/schemes/uttar-pradesh/up-krishi-yantra-anudan-yojana"
+    title: "UP Krishi Yantra Anudan Yojana (scheme directory, not official)"
+    retrieved: "2026-10-24"
+  - url: "https://krishijagran.com/farm-mechanization/get-subsidy-of-upto-rs-1-lakh-to-buy-tractor-apply-by-november-30/?amp=1"
+    title: "Krishi Jagran: tractor subsidy limited to small and marginal UP farmers (news)"
+    retrieved: "2026-10-24"
+reviewed: false
+reviewed_by: null
+reviewed_at: null

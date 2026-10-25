@@ -1,0 +1,80 @@
+[
+  {
+    "id": "run_94a1800ac09f",
+    "kind": "fetch",
+    "status": "COMPLETED",
+    "target": "https://mausam.imd.gov.in/",
+    "streaming_url": null,
+    "video_url": null,
+    "result": null,
+    "error": null,
+    "steps": null,
+    "cost_credits": null,
+    "mode": "replay",
+    "created_at": "2026-10-24T13:53:04.671646Z",
+    "updated_at": "2026-10-24T13:53:04.671646Z"
+  },
+  {
+    "id": "run_748032e228a0",
+    "kind": "fetch",
+    "status": "COMPLETED",
+    "target": "https://agmarknet.gov.in/",
+    "streaming_url": null,
+    "video_url": null,
+    "result": null,
+    "error": null,
+    "steps": null,
+    "cost_credits": null,
+    "mode": "replay",
+    "created_at": "2026-10-24T13:53:04.498826Z",
+    "updated_at": "2026-10-24T13:53:04.498826Z"
+  },
+  {
+    "id": "run_demo_sell",
+    "kind": "agent",
+    "status": "COMPLETED",
+    "target": "Select the demo state, district and commodity wheat. Return the modal price per mandi as JSON.",
+    "streaming_url": "https://example.com/",
+    "video_url": null,
+    "result": {
+      "mandis": [
+        {
+          "mandi": "Meerut",
+          "modal_price": 2540,
+          "arrival_date": "2026-10-22"
+        },
+        {
+          "mandi": "Hapur",
+          "modal_price": 2565,
+          "arrival_date": "2026-10-22"
+        },
+        {
+          "mandi": "Baghpat",
+          "modal_price": 2560,
+          "arrival_date": "2026-10-21"
+        },
+        {
+          "mandi": "Muzaffarnagar",
+          "modal_price": 2575,
+          "arrival_date": "2026-10-22"
+        },
+        {
+          "mandi": "Bulandshahr",
+          "modal_price": 2550,
+          "arrival_date": "2026-10-22"
+        },
+        {
+          "mandi": "Delhi (Azadpur)",
+          "modal_price": 2640,
+          "arrival_date": "2026-10-22"
+        }
+      ]
+    },
+    "error": null,
+    "steps": 5,
+    "cost_credits": null,
+    "mode": "replay",
+    "created_at": "2026-10-24T13:53:04.426786Z",
+    "updated_at": "2026-10-24T13:53:04.426786Z"
+  }
+]

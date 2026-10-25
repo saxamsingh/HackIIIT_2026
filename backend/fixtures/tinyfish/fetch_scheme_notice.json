@@ -1,0 +1,26 @@
+{
+  "_label": "ILLUSTRATIVE FIXTURE, not a real recording. Answers a fetch of any agriwelfare.gov.in notice page (url_contains).",
+  "kind": "fetch",
+  "request": { "url_contains": "agriwelfare.gov.in" },
+  "response": {
+    "results": [
+      {
+        "url": "https://agriwelfare.gov.in/notice-illustrative-1",
+        "final_url": "https://agriwelfare.gov.in/notice-illustrative-1",
+        "title": "Illustrative notice: seed drill subsidy window opens",
+        "format": "markdown",
+        "links": [],
+        "text": "Illustrative notice (not real). Applications are invited for a seed drill subsidy. Last date to apply: 30 November 2026. Small and marginal farmers are preferred."
+      },
+      {
+        "url": "https://agriwelfare.gov.in/notice-illustrative-2",
+        "final_url": "https://agriwelfare.gov.in/notice-illustrative-2",
+        "title": "Illustrative notice: drip irrigation assistance",
+        "format": "markdown",
+        "links": [],
+        "text": "Illustrative notice (not real). Assistance for drip irrigation sets. No closing date is stated on this page."
+      }
+    ],
+    "errors": []
+  }
+}

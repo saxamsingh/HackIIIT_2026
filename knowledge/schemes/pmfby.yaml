@@ -1,0 +1,24 @@
+id: pmfby
+name: PMFBY (Pradhan Mantri Fasal Bima Yojana), crop insurance
+level: central
+benefit: "Insurance cover against crop loss from notified risks. Localised loss (hail, flood, landslide) must be reported within 72 hours."
+estimated_value_rs: null
+value_basis: "Payout depends on the loss assessed; no amount is stated here."
+apply_url: "https://pmfby.gov.in/"
+url_verified: true
+deadline: null   # enrolment cut-off dates are set per season and state; none is cited here, so none is shown
+eligibility:
+  land_required: true
+requires_documents: [aadhaar, bank_passbook, land_record]
+requires_facts: []
+notes: "The 72-hour window is from a Parliament answer; the official PMFBY pages could not be read, so confirm it with your insurer."
+sources:
+  - url: "https://eparlib.nic.in/bitstream/123456789/977813/1/AU3866.pdf"
+    title: "Parliament answer on PMFBY: intimation period extended to 72 hours (2018)"
+    retrieved: "2026-10-24"
+  - url: "https://pmfby.gov.in/"
+    title: "Pradhan Mantri Fasal Bima Yojana portal"
+    retrieved: "2026-10-24"
+reviewed: false
+reviewed_by: null
+reviewed_at: null

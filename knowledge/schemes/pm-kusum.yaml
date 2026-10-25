@@ -1,0 +1,24 @@
+id: pm-kusum
+name: PM-KUSUM (solar pumps for farmers)
+level: central
+benefit: "Central financial assistance of 30% of the benchmark or tender cost for a standalone solar irrigation pump (50% in the North-East, hill states and island territories)."
+estimated_value_rs: null
+value_basis: "A subsidy on a purchase. The state share and the farmer's share differ between sources; check the state agency notice."
+apply_url: "https://pmkusum.mnre.gov.in/"
+url_verified: false
+deadline: null
+eligibility:
+  land_required: true
+requires_documents: [aadhaar, bank_passbook, land_record]
+requires_facts: []
+notes: "Applications go through state implementing agencies. One explainer cites a 31 March 2027 completion deadline, which could not be verified, so no deadline is shown."
+sources:
+  - url: "https://www.sbi.co.in/web/agri-rural/agriculture-banking/government-schemes/pm-kusum-scheme-b-and-c"
+    title: "PM-KUSUM Components B and C (SBI)"
+    retrieved: "2026-10-24"
+  - url: "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/jun/doc202261766501.pdf"
+    title: "PM-KUSUM FAQ (PIB document, 2022)"
+    retrieved: "2026-10-24"
+reviewed: false
+reviewed_by: null
+reviewed_at: null

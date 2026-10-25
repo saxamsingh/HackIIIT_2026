@@ -1,0 +1,29 @@
+{
+  "_label": "ILLUSTRATIVE FIXTURE, not a real recording. The run shape follows the SDK's FetchMonitorRun; the exact Monitor webhook envelope is UNCONFIRMED until a live monitor fires (CLAUDE.md section 6). {district} is replaced by DEMO_DISTRICT.",
+  "kind": "monitor",
+  "request": { "fixture_name": "hail" },
+  "response": {
+    "monitor": {
+      "id": "mon_replay_imd",
+      "name": "IMD district warning (demo district)",
+      "type": "fetch",
+      "config": { "url": "https://mausam.imd.gov.in/", "format": "markdown" },
+      "schedule_cron": "0 */3 * * *",
+      "status": "active"
+    },
+    "run": {
+      "id": "monrun_replay_1",
+      "is_baseline": false,
+      "results": [
+        {
+          "url": "https://mausam.imd.gov.in/",
+          "format": "markdown",
+          "title": "Illustrative district warning",
+          "text": "Illustrative warning (not an IMD bulletin). Thunderstorm with hail likely at isolated places in {district} during the next 3 hours. Gusty winds up to 50 kmph likely.",
+          "links": []
+        }
+      ],
+      "errors": []
+    }
+  }
+}

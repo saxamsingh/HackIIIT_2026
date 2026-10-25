@@ -1,0 +1,19 @@
+{
+  "_label": "ILLUSTRATIVE FIXTURE, not a real recording. The mandi names are real; every price and date below is made up to exercise the parser. Replace by recording a live run (TINYFISH_RECORD=1).",
+  "kind": "fetch",
+  "default": true,
+  "request": { "urls": ["https://agmarknet.gov.in/daily-price-and-arrival-report"] },
+  "response": {
+    "results": [
+      {
+        "url": "https://agmarknet.gov.in/daily-price-and-arrival-report",
+        "final_url": "https://agmarknet.gov.in/daily-price-and-arrival-report",
+        "title": "Illustrative mandi prices",
+        "format": "markdown",
+        "links": [],
+        "text": "# Illustrative mandi prices (not real data)\n\n| Market | Commodity | Modal Price (Rs./Quintal) | Arrival Date |\n|---|---|---|---|\n| Meerut | Wheat | 2540 | 2026-10-22 |\n| Hapur | Wheat | 2565 | 2026-10-22 |\n| Baghpat | Wheat | 2560 | 2026-10-21 |\n| Muzaffarnagar | Wheat | 2575 | 2026-10-22 |\n| Bulandshahr | Wheat | 2550 | 2026-10-22 |\n| Delhi (Azadpur) | Wheat | 2640 | 2026-10-22 |\n| Meerut | Paddy(Dhan)(Common) | 2300 | 2026-10-22 |\n| Illustrative Other Mandi | Wheat | 2500 | 2026-10-22 |"
+      }
+    ],
+    "errors": []
+  }
+}

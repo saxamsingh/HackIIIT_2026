@@ -1,0 +1,31 @@
+{
+  "claim_id": "claim_1b5407dea4a1",
+  "status": "draft",
+  "dossier_url": "/files/dossier-claim_1b5407dea4a1.pdf",
+  "alert_id": null,
+  "intimation_deadline": "2026-10-27",
+  "warnings": [
+    "No photos attached: add dated photos of the damaged field"
+  ],
+  "evidence": [
+    {
+      "source_url": "https://mausam.imd.gov.in/",
+      "kind": "replay",
+      "title": "Weather warning",
+      "quote": "Thunderstorm with hail likely at isolated places in Meerut.",
+      "fetched_at": "2026-10-24T13:53:04.675672Z",
+      "run_id": null,
+      "assumed": false
+    },
+    {
+      "source_url": "https://eparlib.nic.in/bitstream/123456789/977813/1/AU3866.pdf",
+      "kind": "knowledge",
+      "title": "Parliament answer on PMFBY: loss from localised hail, landslide, inundation must be reported within 72 hours",
+      "quote": "Report the loss within 72 hours",
+      "fetched_at": "2026-10-24T13:53:04.684893Z",
+      "run_id": null,
+      "assumed": false
+    }
+  ],
+  "confidence": 0.92
+}

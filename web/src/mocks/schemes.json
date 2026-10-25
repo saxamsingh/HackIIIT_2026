@@ -1,0 +1,253 @@
+{
+  "farmer_id": "farmer_demo_1",
+  "schemes": [
+    {
+      "scheme_id": "kcc",
+      "name": "Kisan Credit Card (KCC)",
+      "benefit": "Short-term farm credit with an interest subvention: loans up to Rs 3 lakh get 2% subvention to the bank plus 3% for prompt repayment.",
+      "estimated_value_rs": null,
+      "eligible": true,
+      "missing_docs": [],
+      "needs_info": [],
+      "reasons": [
+        "You have farmland"
+      ],
+      "deadline": null,
+      "apply_url": "https://www.myscheme.gov.in/",
+      "reviewed": true,
+      "packet_url": "/files/packet-farmer_demo_1-kcc.pdf",
+      "evidence": [
+        {
+          "source_url": "https://rsdebate.nic.in/bitstream/123456789/759195/1/PQ_267_18032025_U2012_p327_p327.pdf",
+          "kind": "knowledge",
+          "title": "Rajya Sabha answer (18 Mar 2025) on KCC interest subvention",
+          "quote": "Short-term farm credit with an interest subvention: loans up to Rs 3 lakh get 2% subvention to the bank plus 3% for prompt repayment.",
+          "fetched_at": "2026-10-24T13:53:04.628665Z",
+          "run_id": null,
+          "assumed": false
+        },
+        {
+          "source_url": "https://pygb.bank.in/kcc-crop/",
+          "kind": "knowledge",
+          "title": "KCC eligibility (Punjab Gramin Bank)",
+          "quote": "Short-term farm credit with an interest subvention: loans up to Rs 3 lakh get 2% subvention to the bank plus 3% for prompt repayment.",
+          "fetched_at": "2026-10-24T13:53:04.628665Z",
+          "run_id": null,
+          "assumed": false
+        }
+      ]
+    },
+    {
+      "scheme_id": "pm-kisan",
+      "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+      "benefit": "Income support of Rs 6,000 a year, paid in three equal instalments of Rs 2,000 by direct bank transfer.",
+      "estimated_value_rs": 6000.0,
+      "eligible": true,
+      "missing_docs": [],
+      "needs_info": [],
+      "reasons": [
+        "You have farmland"
+      ],
+      "deadline": null,
+      "apply_url": "https://pmkisan.gov.in/",
+      "reviewed": true,
+      "packet_url": "/files/packet-farmer_demo_1-pm-kisan.pdf",
+      "evidence": [
+        {
+          "source_url": "https://services.india.gov.in/service/detail/pm-kisan-samman-nidhi",
+          "kind": "knowledge",
+          "title": "PM Kisan Samman Nidhi (India.gov.in services)",
+          "quote": "Income support of Rs 6,000 a year, paid in three equal instalments of Rs 2,000 by direct bank transfer.",
+          "fetched_at": "2026-10-24T13:53:04.635081Z",
+          "run_id": null,
+          "assumed": false
+        },
+        {
+          "source_url": "https://wb.gov.in/government-schemes-details-pradhan-mantri-kisan-samman-nidhi.aspx",
+          "kind": "knowledge",
+          "title": "PM-KISAN: eligibility and benefit (State government page)",
+          "quote": "Income support of Rs 6,000 a year, paid in three equal instalments of Rs 2,000 by direct bank transfer.",
+          "fetched_at": "2026-10-24T13:53:04.635081Z",
+          "run_id": null,
+          "assumed": false
+        }
+      ]
+    },
+    {
+      "scheme_id": "pm-kusum",
+      "name": "PM-KUSUM (solar pumps for farmers)",
+      "benefit": "Central financial assistance of 30% of the benchmark or tender cost for a standalone solar irrigation pump (50% in the North-East, hill states and island territories).",
+      "estimated_value_rs": null,
+      "eligible": true,
+      "missing_docs": [],
+      "needs_info": [],
+      "reasons": [
+        "You have farmland"
+      ],
+      "deadline": null,
+      "apply_url": "https://pmkusum.mnre.gov.in/",
+      "reviewed": true,
+      "packet_url": "/files/packet-farmer_demo_1-pm-kusum.pdf",
+      "evidence": [
+        {
+          "source_url": "https://www.sbi.co.in/web/agri-rural/agriculture-banking/government-schemes/pm-kusum-scheme-b-and-c",
+          "kind": "knowledge",
+          "title": "PM-KUSUM Components B and C (SBI)",
+          "quote": "Central financial assistance of 30% of the benchmark or tender cost for a standalone solar irrigation pump (50% in the North-East, hill states and island territories).",
+          "fetched_at": "2026-10-24T13:53:04.638081Z",
+          "run_id": null,
+          "assumed": false
+        },
+        {
+          "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/jun/doc202261766501.pdf",
+          "kind": "knowledge",
+          "title": "PM-KUSUM FAQ (PIB document, 2022)",
+          "quote": "Central financial assistance of 30% of the benchmark or tender cost for a standalone solar irrigation pump (50% in the North-East, hill states and island territories).",
+          "fetched_at": "2026-10-24T13:53:04.638081Z",
+          "run_id": null,
+          "assumed": false
+        }
+      ]
+    },
+    {
+      "scheme_id": "pmfby",
+      "name": "PMFBY (Pradhan Mantri Fasal Bima Yojana), crop insurance",
+      "benefit": "Insurance cover against crop loss from notified risks. Localised loss (hail, flood, landslide) must be reported within 72 hours.",
+      "estimated_value_rs": null,
+      "eligible": true,
+      "missing_docs": [],
+      "needs_info": [],
+      "reasons": [
+        "You have farmland"
+      ],
+      "deadline": null,
+      "apply_url": "https://pmfby.gov.in/",
+      "reviewed": true,
+      "packet_url": "/files/packet-farmer_demo_1-pmfby.pdf",
+      "evidence": [
+        {
+          "source_url": "https://eparlib.nic.in/bitstream/123456789/977813/1/AU3866.pdf",
+          "kind": "knowledge",
+          "title": "Parliament answer on PMFBY: intimation period extended to 72 hours (2018)",
+          "quote": "Insurance cover against crop loss from notified risks. Localised loss (hail, flood, landslide) must be reported within 72 hours.",
+          "fetched_at": "2026-10-24T13:53:04.642081Z",
+          "run_id": null,
+          "assumed": false
+        },
+        {
+          "source_url": "https://pmfby.gov.in/",
+          "kind": "knowledge",
+          "title": "Pradhan Mantri Fasal Bima Yojana portal",
+          "quote": "Insurance cover against crop loss from notified risks. Localised loss (hail, flood, landslide) must be reported within 72 hours.",
+          "fetched_at": "2026-10-24T13:53:04.642081Z",
+          "run_id": null,
+          "assumed": false
+        }
+      ]
+    },
+    {
+      "scheme_id": "soil-health-card",
+      "name": "Soil Health Card",
+      "benefit": "A soil test and a card with the soil's nutrient status and fertiliser recommendations.",
+      "estimated_value_rs": null,
+      "eligible": true,
+      "missing_docs": [],
+      "needs_info": [],
+      "reasons": [],
+      "deadline": null,
+      "apply_url": "https://soilhealth.dac.gov.in/",
+      "reviewed": true,
+      "packet_url": "/files/packet-farmer_demo_1-soil-health-card.pdf",
+      "evidence": [
+        {
+          "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025816613501.pdf",
+          "kind": "knowledge",
+          "title": "PIB document: Soil Health Card cycle and sample costs (Aug 2025)",
+          "quote": "A soil test and a card with the soil's nutrient status and fertiliser recommendations.",
+          "fetched_at": "2026-10-24T13:53:04.647455Z",
+          "run_id": null,
+          "assumed": false
+        },
+        {
+          "source_url": "https://wb.gov.in/government-schemes-details-soil-health-card.aspx",
+          "kind": "knowledge",
+          "title": "Soil Health Card (State government page)",
+          "quote": "A soil test and a card with the soil's nutrient status and fertiliser recommendations.",
+          "fetched_at": "2026-10-24T13:53:04.647455Z",
+          "run_id": null,
+          "assumed": false
+        }
+      ]
+    },
+    {
+      "scheme_id": "up-krishi-yantra",
+      "name": "UP Krishi Yantra Anudan (farm machinery subsidy, Uttar Pradesh)",
+      "benefit": "A subsidy on farm machinery such as rotavators, seed drills, sprinklers and threshers, applied for online with a token (lottery) system.",
+      "estimated_value_rs": null,
+      "eligible": true,
+      "missing_docs": [],
+      "needs_info": [],
+      "reasons": [
+        "Available in Uttar Pradesh",
+        "You have farmland"
+      ],
+      "deadline": null,
+      "apply_url": "https://upagriculture.com/",
+      "reviewed": true,
+      "packet_url": "/files/packet-farmer_demo_1-up-krishi-yantra.pdf",
+      "evidence": [
+        {
+          "source_url": "https://schemesinindia.in/schemes/uttar-pradesh/up-krishi-yantra-anudan-yojana",
+          "kind": "knowledge",
+          "title": "UP Krishi Yantra Anudan Yojana (scheme directory, not official)",
+          "quote": "A subsidy on farm machinery such as rotavators, seed drills, sprinklers and threshers, applied for online with a token (lottery) system.",
+          "fetched_at": "2026-10-24T13:53:04.655457Z",
+          "run_id": null,
+          "assumed": false
+        },
+        {
+          "source_url": "https://krishijagran.com/farm-mechanization/get-subsidy-of-upto-rs-1-lakh-to-buy-tractor-apply-by-november-30/?amp=1",
+          "kind": "knowledge",
+          "title": "Krishi Jagran: tractor subsidy limited to small and marginal UP farmers (news)",
+          "quote": "A subsidy on farm machinery such as rotavators, seed drills, sprinklers and threshers, applied for online with a token (lottery) system.",
+          "fetched_at": "2026-10-24T13:53:04.655457Z",
+          "run_id": null,
+          "assumed": false
+        }
+      ]
+    },
+    {
+      "scheme_id": "pm-kmy",
+      "name": "PM Kisan Maandhan Yojana (farmer pension)",
+      "benefit": "A minimum assured pension of Rs 3,000 a month after age 60, for monthly contributions of Rs 55 to Rs 200 (matched by the Centre).",
+      "estimated_value_rs": null,
+      "eligible": false,
+      "missing_docs": [],
+      "needs_info": [
+        "age"
+      ],
+      "reasons": [
+        "Land 2 acres is within the 4.94-acre limit",
+        "You have farmland"
+      ],
+      "deadline": null,
+      "apply_url": "https://pmkisan.gov.in/",
+      "reviewed": true,
+      "packet_url": null,
+      "evidence": [
+        {
+          "source_url": "https://Pmkisan.Gov.In/Documents/PM-KMY - Operational Guidelines.pdf",
+          "kind": "knowledge",
+          "title": "PM-KMY Operational Guidelines",
+          "quote": "A minimum assured pension of Rs 3,000 a month after age 60, for monthly contributions of Rs 55 to Rs 200 (matched by the Centre).",
+          "fetched_at": "2026-10-24T13:53:04.635081Z",
+          "run_id": null,
+          "assumed": false
+        }
+      ]
+    }
+  ],
+  "confidence": 0.9,
+  "requires_farmer_confirmation": true,
+  "note": null
+}

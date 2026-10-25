@@ -1,0 +1,34 @@
+{
+  "farmer_id": "farmer_demo_1",
+  "total_rs": 1800.0,
+  "projected_rs": 7440.0,
+  "entries": [
+    {
+      "id": "led_660748de4ed5",
+      "farmer_id": "farmer_demo_1",
+      "kind": "subsidy",
+      "amount_rs": 6000.0,
+      "formula": "Indicative benefit of PM-KISAN (Pradhan Mantri Kisan Samman Nidhi): Rs 6000. Per year, as stated by the scheme. Indicative; the farmer must still be verified and complete e-KYC.",
+      "confirmed": false,
+      "created_at": "2026-10-24T13:53:04.657457Z"
+    },
+    {
+      "id": "led_3d532e16c197",
+      "farmer_id": "farmer_demo_1",
+      "kind": "sell",
+      "amount_rs": 1440.0,
+      "formula": "(net Rs 2612 at Delhi (Azadpur) - net Rs 2540 at Meerut) x 20 qtl = Rs 1440; net = modal price - Rs 0.4 per qtl per km x distance (freight rate is an assumption)",
+      "confirmed": false,
+      "created_at": "2026-10-24T13:53:04.505184Z"
+    },
+    {
+      "id": "led_demo_1",
+      "farmer_id": "farmer_demo_1",
+      "kind": "sell",
+      "amount_rs": 1800.0,
+      "formula": "Synthetic demo entry: (net price at far mandi - net price at nearest mandi) x quintals",
+      "confirmed": true,
+      "created_at": "2026-10-24T13:53:04.416787Z"
+    }
+  ]
+}
